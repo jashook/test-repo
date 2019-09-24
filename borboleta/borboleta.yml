@@ -1,10 +1,9 @@
-trigger:
-  ci:
-    paths:
-      include: /borboleta
-  pr:
-    paths:
-      include: /borboleta
+ci:
+  paths:
+    include: /borboleta
+pr:
+  paths:
+    include: /borboleta
 
 pool:
   vmImage: 'ubuntu-latest'
