@@ -12,5 +12,5 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Buongiorno!
-  displayName: 'Buongiorno'
+- script: echo Olá!
+  displayName: 'Olá'
