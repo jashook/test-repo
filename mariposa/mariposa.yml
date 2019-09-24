@@ -1,10 +1,12 @@
 trigger:
-  ci:
-    paths:
-      include: mariposa/*
-  pr:
-    paths:
-      include: mariposa/*
+  paths:
+    include: 
+    -mariposa/*
+
+pr:
+  paths:
+    include: 
+    -mariposa/*
 
 pool:
   vmImage: 'ubuntu-latest'
