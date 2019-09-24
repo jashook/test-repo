@@ -1,11 +1,12 @@
 trigger:
   paths:
     include:
-    -borboleta/*
+    - borboleta/*
+    
 pr:
   paths:
     include:
-    -borboleta/*
+    - borboleta/*
 
 pool:
   vmImage: 'ubuntu-latest'
