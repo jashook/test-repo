@@ -1,10 +1,10 @@
 trigger:
   ci:
     paths:
-      include: /papillon
+      include: papillon/*
   pr:
     paths:
-      include: /papillon
+      include: papillon/*
 
 pool:
   vmImage: 'ubuntu-latest'
