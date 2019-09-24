@@ -1,9 +1,14 @@
 trigger:
-- master
+  ci:
+    paths:
+      include: /papillon
+  pr:
+    paths:
+      include: /papillon
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo Bonjour!
+  displayName: 'Bonjour'

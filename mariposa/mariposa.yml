@@ -1,9 +1,14 @@
 trigger:
-- master
+  ci:
+    paths:
+      include: /mariposa
+  pr:
+    paths:
+      include: /mariposa
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo ¡Hola!
+  displayName: 'Hola'
